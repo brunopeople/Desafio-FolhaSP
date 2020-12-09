@@ -1,0 +1,18 @@
+{
+    "name": "brunopessoa/desafio-folha-sp",
+    "authors": [
+        {
+            "name": "Bruno Pessoa Nunes De Melo",
+            "email": "brunopessoa.melo@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "AstronautasPerdidos\\":"src//"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#!/bin/bash/php
+
+<?php
+
+require_once  __DIR__.'/vendor/autoload.php';
+
+use   AstronautasPerdidos\Navegador;
+use   AstronautasPerdidos\SystemasSolares;
+
+$tripulacao = 80;
+$planetas = [
+'SIRIUS',
+'LALANDE',
+'PROCION',
+'ALPHA',
+'CENTAURI',
+'BARNARD'];
+
+$destino = new Navegador();
+$destino
+->addPassageiros($tripulacao)
+->calcularDestino(new SystemasSolares($planetas));
