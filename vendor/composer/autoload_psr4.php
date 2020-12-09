@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'LostEnginner\\' => array($baseDir . '/src'),
+    'LostEngineer\\' => array($baseDir . '/src'),
 );

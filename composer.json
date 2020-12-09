@@ -1,18 +1,17 @@
 {
-    "name": "brunopessoa/desafio-folha-sp",
+    "name": "carloscarvalho/php-folha-lost-engineers",
     "authors": [
         {
-            "name": "Bruno Pessoa Nunes De Melo",
-            "email": "brunopessoa.melo@gmail.com"
+            "name": "Carlos Carvalho",
+            "email": "contato@carlosocavalho.com.br"
         }
     ],
-
     "require": {
-        "php": ">=7"
+        "php":">=7"
     },
     "autoload": {
         "psr-4": {
-            "AstronautasPerdidos\\":"src//"
+            "LostEngineer\\":"src//"
         }
     }
 }
